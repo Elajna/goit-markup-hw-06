@@ -157,6 +157,7 @@ ul {
 .comment-field {
   height: 120px;
   resize: none;
+  padding: 15px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
 }
@@ -172,6 +173,7 @@ ul {
   top: 12px;
   left: 16px;
   color: #757575;
+
   transition: transform 250ms linear;
 }
 
@@ -242,6 +244,10 @@ ul {
   background-image: url(../img/icon-check.svg);
   border-color: transparent;
   background-origin: border-box;
+}
+
+.checkbox-link {
+  color: var(--accent-color);
 }
 
 /* кнопка отправить */
@@ -593,6 +599,16 @@ ul {
   font-size: 14px;
   line-height: 1.1;
   text-transform: uppercase;
+}
+
+figcaption {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
 }
 
 .feature-list {

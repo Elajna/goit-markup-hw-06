@@ -1,9 +1,10 @@
 {
     "version": 3,
-    "mappings": "AAEA,AAAA,IAAI,CAAC;EACH,KAAK,ECHc,OAAO;CDI3B",
+    "mappings": "AEGA,AAAA,IAAI,CAAC;EACH,KAAK,EDJM,OAAO;ECKlB,gBAAgB,EDFI,OAAO;ECG3B,cAAc,EAAE,MAAM;CAQvB;;AAXD,AAKE,IALE,CAKF,UAAU,CAAC;EACT,KAAK,EAAE,MAAM;EACb,MAAM,EAAE,IAAI;EACZ,YAAY,EAAE,IAAI;EAClB,aAAa,EAAE,IAAI;CACpB",
     "sources": [
         "../sass/main.scss",
-        "../sass/utils/_variables.scss"
+        "../sass/utils/_variables.scss",
+        "../sass/base/_default-style.scss"
     ],
     "names": [],
     "file": "main.css"
